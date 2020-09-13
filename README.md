@@ -1,6 +1,5 @@
-<p align="center">
-    <h2>:pill: Guiding directed protein evolution with Bayesian Optimization :pill:</h2>
-</p>
+## :pill: Guiding directed protein evolution with Bayesian Optimization
+
 
 ![Image latent space](img/latent_space_wide_with_mutants.png)
 
