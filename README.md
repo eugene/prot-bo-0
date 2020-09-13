@@ -1,4 +1,4 @@
-# :pill: Novel protein design with Bayesian Optimization in latent spaces :pill:
+## :pill: Guiding directed protein evolution with Bayesian Optimization :pill:
 
 ![Image latent space](img/latent_space_wide_with_mutants.png)
 
@@ -12,7 +12,7 @@ We learned that our VAE+BO approach significantly outperforms random mutant sele
 
 ## Result in a single plot
 ![Image results](img/results-wide.png)
-Optimization progress across 5 experiments with varying β (exploitation-exploration tradeoff hyperparameter). In all experiments, the Bayesian Optimization procedure manages to suggest highly relevant mutations as seen by the high value of μ - the mean value of the fitness of the suggested targets. Arrows point to the first occurrence of the best mutant in the experiment. Comparing with Table 1, we note that the procedure successfully manages to find 2 out of 3 top mutants.
+Optimization progress across 5 experiments with varying β (exploitation-exploration tradeoff hyperparameter). In all experiments, the Bayesian Optimization procedure manages to suggest highly relevant mutations as seen by the high value of μ - the mean value of the fitness of the suggested targets. Arrows point to the first occurrence of the best mutant in the experiment. The procedure successfully manages to find 2 out of 3 top mutants.
 
 ## Running the code
 ```
